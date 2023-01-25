@@ -1,0 +1,183 @@
+{
+  "class": {
+    "Artificer": [
+      "Alchemist",
+      "Armorer",
+      "Artillerist",
+      "Battle Smith"
+    ],
+    "Barbarian": [
+      "Path of Ancestral Guardian",
+      "Path of Battlerager",
+      "Path of Beast",
+      "Path of Berserker",
+      "Path of Storm Herald",
+      "Path of Totem Warrior",
+      "Path of Wild Magic",
+      "Path of the Zealot"
+    ],
+    "Bard": [
+      "College of Creation",
+      "College of Eloquence",
+      "College of Glamour",
+      "College of Lore",
+      "College of Spirits",
+      "College of Swords",
+      "College of Valor",
+      "College of Whispers"
+    ],
+    "Cleric": [
+      "Arcana Domain",
+      "Death",
+      "Forge Domain",
+      "Grave Domain",
+      "Knowledge Domain",
+      "Life Domain",
+      "Light Domain",
+      "Nature Domain",
+      "Order Domain",
+      "Peace Domain",
+      "Tempest Domain",
+      "Trickery Domain",
+      "Twilight Domain",
+      "War Domain"
+    ],
+    "Druid": [
+      "Cricle of Dreams",
+      "Cricle of Land",
+      "Cricle of Moon",
+      "Cricle of Shepherd",
+      "Cricle of Spores",
+      "Cricle of Stars",
+      "Cricle of Wildfire"
+    ],
+    "Fighter": [
+      "Arcane Archer",
+      "Banneret",
+      "Battle Master",
+      "Cavalier",
+      "Champion",
+      "Echo Knight",
+      "Eldritch Knight",
+      "Psi Warrior",
+      "Rune Knight",
+      "Samurai"
+    ],
+    "Monk": [
+      "Way of Mercy",
+      "Way of Ascendant Dragon",
+      "Way of Astral Self",
+      "Way of Drunken Master",
+      "Way of Four Elements",
+      "Way of Kensei",
+      "Way of Long Death",
+      "Way of Open Hand",
+      "Way of Shadow",
+      "Way of Sun Soul"
+    ],
+    "Paladin": [
+      "Oath of Ancients",
+      "Oath of Conquest",
+      "Oath of Crown",
+      "Oath of Devotion",
+      "Oath of Glory",
+      "Oath of Redemption",
+      "Oath of Vengeance",
+      "Oath of Watchers",
+      "Oathbreaker"
+    ],
+    "Ranger": [
+      "Beast Master Conclave",
+      "Drakewarder",
+      "Fey Wanderer",
+      "Gloom Stalker Conclave",
+      "Horizon Walker Conclave",
+      "Hunter Conclave",
+      "Monster Slayer Conclave",
+      "Swarmkeeper"
+    ],
+    "Rouge": [
+      "Arcane Trickster",
+      "Assassin",
+      "Inqisitive",
+      "Mastermind",
+      "Phantom",
+      "Scout",
+      "Soulknife",
+      "Swashbuckler",
+      "Thief"
+    ],
+    "Sorcerer": [
+      "Aberrant Mind",
+      "Clockwork Soul",
+      "Draconic Bloodline",
+      "Divine Soul",
+      "Shadow Magic",
+      "Storm Sorcery",
+      "Wild Magic"
+    ],
+    "Warlock": [
+      "Archfey",
+      "Celestial",
+      "Fathomless",
+      "Fiend",
+      "The Genie",
+      "Great Old One",
+      "Hexblade",
+      "Undead",
+      "Undying"
+    ],
+    "Wizard": [
+      "School of Abjuration",
+      "School of Bladesining",
+      "School of Chronurgy",
+      "School of Conjuration",
+      "School of Divination",
+      "School of Enchantment",
+      "School of Evocation",
+      "School of Graviturgy",
+      "School of Illusion",
+      "School of Necromancy",
+      "Order of Scribes",
+      "School of Transmutation",
+      "School of War Magic"
+    ]
+  },
+  "race": {
+    "common": [
+      "Dragonborn",
+      "Dwarf",
+      "Elf",
+      "Gnome",
+      "Half-Elf",
+      "Half-Orc",
+      "Halfing",
+      "Human",
+      "Tiefling"
+    ],
+    "exotic": [
+      "Arackocra",
+      "Aasimar",
+      "Firbolg",
+      "Gith",
+      "Goliath",
+      "Kenku",
+      "Tabaxi",
+      "Tortle",
+      "Triton"
+    ],
+    "monstrous": [
+      "Bugbear",
+      "Centaur",
+      "Goblin",
+      "Grung",
+      "Hobgoblin",
+      "Kobold",
+      "Lizardfolk",
+      "Minotaur",
+      "Orc",
+      "Yuan-Ti Pureblood"
+    ]
+  }
+  
+}
