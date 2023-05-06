@@ -12,6 +12,7 @@ class StatRoller(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
         self.pf2_json = json.load(open(self.directory + 'pf2e.json'))
+        self.generic = json.load(open(self.directory + 'generic.json'))
         self.dnd_json = json.load(open(self.directory + 'dnd5e.json'))
 
     @commands.command()
@@ -40,6 +41,16 @@ class StatRoller(commands.Cog):
             >rollracednd
             >rollracednd <race tier>```
         """)
+
+    @commands.command()
+    async def rollalignment(self, ctx):
+        """Roll for alignment.
+        """
+        alignments = self.generic["alignment"]
+        author = ctx.author
+        rolled_alignment = self.RollForCustomList(alignments)
+        await ctx.send(f"You are {rolled_alignment}!\n Congratulations {author.mention}! :partying_face:")
+
 
     @commands.command()
     async def rollstats(self, ctx):
@@ -167,6 +178,7 @@ class StatRoller(commands.Cog):
         result_message += f"Archetype: {self.RollForPropertyPf2('archetype')}\n"
         result_message += f"Background: {self.RollForPropertyPf2('background')}\n"
         result_message += f"Deity: {self.RollForPropertyPf2('deity')}\n"
+        result_message += f"Alignment: {self.RollForPropertyGeneric('alignment')}\n"
         stats = self.pf2_json["stats"]
         stat_dictionary = {}
         for stat in stats:
@@ -295,3 +307,6 @@ class StatRoller(commands.Cog):
         properties = self.pf2_json[property]
         return self.RollForCustomList(properties)
 
+    def RollForPropertyGeneric(self, property):
+        properties = self.generic[property]
+        return self.RollForCustomList(properties)

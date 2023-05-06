@@ -1,5 +1,6 @@
+from redbot.core.bot import Red
 from .statroller import StatRoller
 
 
-def setup(bot):
-    bot.add_cog(StatRoller(bot))
+async def setup(bot: Red) -> None:
+    await bot.add_cog(StatRoller(bot))
