@@ -138,7 +138,7 @@ class StatRoller(commands.Cog):
         deities = self.pf2_json["deity"]
         author = ctx.author
         rolled_deity = self.RollForCustomList(deities)
-        await ctx.send(f"You are a devout follower of  {rolled_deity}!\n Congratulations {author.mention}! :partying_face:")
+        await ctx.send(f"You are a devout follower of {rolled_deity}!\n Congratulations {author.mention}! :partying_face:")
 
     @commands.command()
     async def rollbackgroundpf2(self, ctx):
